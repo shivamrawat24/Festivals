@@ -1,0 +1,32 @@
+.guide{
+    height: 70vh;
+    width: 80%;
+    margin: 30px auto;
+    background-color: beige;
+    text-align: center;
+    padding-top: 55px;
+    border-radius: 22px;
+    
+}
+.guide:hover{
+    box-shadow: 0px 0px 11px 0px blue;
+    transition: .7s;
+}
+.guide :hover{
+    box-shadow: 0px 0px 11px 0px blue;
+    transition: 0.5s;+
+}
+.guide img{
+    height: 300px;
+    width: 320px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.guide p h2{
+    font-size: 38px;
+
+}
+.guide p{
+    font-size: 19px;
+    margin: 15px;
+}

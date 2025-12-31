@@ -1,0 +1,24 @@
+.feature ul{
+    height: 63px;
+    width: 100%;
+    background-color: rgb(229, 222, 222);
+    color: rgb(82, 82, 194);
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 7px 0px rgb(50, 30, 199);
+    border-bottom: 1px solid black;
+    
+}
+.feature ul li{
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    
+}
+.feature ul li:hover{
+    font-size: 24px;
+    font-weight: 700;
+}
