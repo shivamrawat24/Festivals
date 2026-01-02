@@ -1,0 +1,83 @@
+
+.fest-type{
+    width: 100%;
+    height: auto;
+    padding: 12px;
+}
+.fest-type #userChoice{
+    width: 400px;
+    height: 70px;
+    margin-left: 900px;
+    font-size: 18px;
+    padding:0px 11px;
+}
+.fest-type button{
+    height: 70px;
+    width: 150px;
+    margin-left: 20px;
+}
+.fest-type .fest-banner{
+    height: 65vh;
+    border: 1px solid white;
+    border-radius: 22px;
+    background-image: url(../../../Assets/fest-banner3.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-size: 100 100; */
+    background-repeat: no-repeat;
+    box-sizing: 0px 0px 4px 0px;
+    /* border: 1px solid black; */
+    margin: 10px 50px;
+    padding: 100px;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+.fest-banner:hover{
+    /* width: 100%; */
+    margin: 0px;
+    padding: 40px;
+    transition: 2s ease-out;
+    /* transform: rotate(.7deg); */
+    color:red
+}
+.fest-banner h2{
+    font-size: 28px;
+    /* color: rgb(242, 62, 62); */
+}
+.fest-banner p{
+    font-size: 22px;
+}
+.upcoming-fest{
+    height: 70vh;
+    padding: 30px;
+    margin: 20px 50px;
+    border: 1px solid black;
+    /* display: flex; */
+}
+.upcoming-fest h3{
+    font-size: 33px;
+    text-align: center;
+}
+.upcoming-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 20px;
+}
+.upcoming-container span{
+    height: 380px;
+    width: auto;
+    background-color: rgb(141, 78, 78);
+    border: 1px solid black;
+    border-radius: 12px;
+    /* padding-left: 100px; */
+    text-align: center;
+}
+.upcoming-container img{
+    height: 150px;
+    width: 100px;
+    margin: 10px 20px;
+    border-radius: 12px;
+}

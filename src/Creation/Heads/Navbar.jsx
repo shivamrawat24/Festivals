@@ -1,5 +1,6 @@
 import React, {  useRef, useState } from 'react'
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [home,setHome]=useState(true);
@@ -51,10 +52,10 @@ const Navbar = () => {
   return (
     <div className='feature'>
         <ul>
-            <li onClick={handleHome} ref={homeRef}>Home</li>
-            <li onClick={handleFest} ref={festRef}> Fest-Types</li>
-            <li onClick={handleTools} ref={toolsRef}>Accesories</li>
-            <li onClick={handleTips} ref={tipsRef}>Tips</li>
+           <Link to ="/" className='underlinen'> <li onClick={handleHome} ref={homeRef}>Home</li></Link>
+            <Link to ="/festtype" className='underlinen'><li onClick={handleFest} ref={festRef}> Fest-Types</li></Link>
+            <Link to ="/accessories" className='underlinen'><li onClick={handleTools} ref={toolsRef}>Accessories</li></Link>
+            <Link to ="/tips" className='underlinen'><li onClick={handleTips} ref={tipsRef}>Tips</li></Link>
         </ul>
     </div>
   )

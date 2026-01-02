@@ -1,0 +1,28 @@
+.ground{
+    height: 40vh;
+    text-align: center;
+    
+}
+.ground h3{
+    font-size: 30px;
+
+}
+.ground hr{
+    /* width: 70%; */
+    margin:20px 130px;
+}
+.ground span{
+    font-size: 18px;
+    /* margin:20px; */
+    color: blue;
+    background-color: grey;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    padding: 10px;
+
+}
+.ground span:hover{
+    transition: 1s;
+    background-color: blue;
+    color: white;
+}

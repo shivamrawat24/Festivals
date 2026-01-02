@@ -8,3 +8,5 @@ works:
 
 For Navbar :
 it will be little darker than white color, which will be white..and have box shadowing..
+
+
