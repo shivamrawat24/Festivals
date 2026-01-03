@@ -52,7 +52,7 @@
     height: 70vh;
     padding: 30px;
     margin: 20px 50px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* display: flex; */
 }
 .upcoming-fest h3{
@@ -68,16 +68,30 @@
 }
 .upcoming-container span{
     height: 380px;
-    width: auto;
-    background-color: rgb(141, 78, 78);
-    border: 1px solid black;
+    width:300px;
+    background-color: rgb(130, 107, 213);
+    border: 1px solid rgb(128, 114, 114);
     border-radius: 12px;
     /* padding-left: 100px; */
     text-align: center;
+    padding: 10px;
+    margin-top:20px ;
+    box-shadow: 0px 0px 12px 0px;
+}
+.upcoming-container span:hover{
+    height: 389px;
+    width: 309px;
+    background-color: rgb(66, 66, 180);
+    color: white;
+    font-size: 17px;
+    box-shadow: 14px 4px 0px 0px;
 }
 .upcoming-container img{
-    height: 150px;
-    width: 100px;
-    margin: 10px 20px;
+    height: 200px;
+    width: 100%;
+    /* margin: 20px 20px; */
     border-radius: 12px;
+}
+.upcoming-container p{
+    margin-top: 10px;
 }

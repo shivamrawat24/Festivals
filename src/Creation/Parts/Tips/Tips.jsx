@@ -4,7 +4,8 @@ import './Tips.css';
 const Tips = () => {
   return (
     <div>
-      <h1>This is Tips</h1>
+      <h1>Tips </h1>
+      <p>how to wear , where to wear , tips for using</p>
     </div>
   )
 }
